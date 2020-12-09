@@ -1,0 +1,67 @@
+/*
+colors
+white: #faf7fd
+black: #031927
+candy pink: #e47585
+max yellow red: #f5bb50
+max blue purple: #94a9e2
+lavender floral: #b384f4
+royal purple: #843da7
+violet blue crayola: #7977b8
+*/
+
+body {
+  background-color: #faf7fd;
+  color: #031927;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+/* * * NAVIGATION * * */
+nav {
+  background-color: #031927;
+  height: 100px;
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: right;
+}
+
+nav li a {
+  display: block;
+  color: #faf7fd;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Noto Sans JP";
+  font-weight: 400;
+  font-size: 18px;
+  margin: 18px;
+  padding: 15px;
+}
+
+/* * * HEADERS * * */
+
+h1 a {
+  position: relative;
+  font-family: "Noto Sans JP";
+  font-weight: 700;
+  color: #faf7fd;
+  margin-top: 25px;
+  margin-left: 50px;
+  font-size: 30px;
+  float: left;
+  text-decoration: none;
+}
+
+#page {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
