@@ -2,12 +2,12 @@
 colors
 white: #faf7fd
 black: #031927
-candy pink: #e47585
 max yellow red: #f5bb50
 max blue purple: #94a9e2
+violet blue crayola: #7977b8
 lavender floral: #b384f4
 royal purple: #843da7
-violet blue crayola: #7977b8
+candy pink: #e47585
 */
 
 body {
@@ -25,7 +25,6 @@ body {
 nav {
   background-color: #031927;
   width: 100%;
-  position: fixed;
   top: 0;
 }
 
@@ -53,17 +52,19 @@ nav li a {
 /* * * HEADERS * * */
 
 h1 a {
-  position: relative;
   font-family: "Noto Sans JP";
   font-weight: 700;
   color: #faf7fd;
-  margin-left: 50px;
   float: left;
-}
-
-h1 a {
   font-size: 2em;
   text-decoration: none;
+  position: relative;
+  margin-top: 7px;
+  margin-left: 50px;
+}
+
+h1 a:hover {
+  color: #faf7fd;
 }
 
 h2 {
@@ -87,14 +88,18 @@ h2 {
 }
 
 #footnotes {
-  margin-top: 50px;
-  font-size: 12px;
+  margin-top: 16px;
+  font-size: 14px;
   position: relative;
 }
 
 a {
   color: #7977b8;
   text-decoration: none;
+}
+
+a:hover {
+  color: #94a9e2;
 }
 
 p {
@@ -117,4 +122,13 @@ p {
 .button:hover {
   background-color: #7977b8;
   color: #faf7fd;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
 }
