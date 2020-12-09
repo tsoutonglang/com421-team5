@@ -22,7 +22,9 @@ body {
 /* * * NAVIGATION * * */
 nav {
   background-color: #031927;
-  height: 100px;
+  width: 100%;
+  position: fixed;
+  top: 0;
 }
 
 nav ul {
@@ -46,6 +48,10 @@ nav li a {
   padding: 15px;
 }
 
+#banner {
+  width: 100%;
+}
+
 /* * * HEADERS * * */
 
 h1 a {
@@ -53,15 +59,30 @@ h1 a {
   font-family: "Noto Sans JP";
   font-weight: 700;
   color: #faf7fd;
-  margin-top: 25px;
   margin-left: 50px;
-  font-size: 30px;
   float: left;
+}
+
+h1 a {
+  font-size: 2em;
   text-decoration: none;
+}
+
+h2 {
+  font-family: "Noto Sans JP";
+  font-weight: 700;
+  color: #031927;
+  font-size: 1.75em;
+  text-align: center;
 }
 
 #page {
   width: 95%;
   margin-left: auto;
   margin-right: auto;
+}
+
+a {
+  color: #7977b8;
+  text-decoration: none;
 }
