@@ -1,7 +1,8 @@
-Figure 2. Chart shows the most recent status of tickets with Paid indicating the ticket 
-was paid, Dismissed indicating the ticket was dismissed (internally or due to an appeal)
-, Hearing Req meaning that the ticket was contested and awaiting a hearing, Notice
-indicating if a ticket isn't paid yet and a notice was sent, Court if the ticket is
-involved in a case (not bankrupcy), Bankrupcy indicating that the ticket is unpaid and
-and included as debt tin a consumer bankrupcy case, and Define if city can't find owner and
-collect debt.
+Figure 2. Chart shows the most recent status of tickets
+Paid indicating the ticket was paid
+Dismissed indicating the ticket was dismissed (internally or due to an appeal)
+Hearing Req meaning that the ticket was contested and awaiting a hearing
+Notice indicating if a ticket isn't paid yet and a notice was sent
+Court if the ticket is involved in a case (not bankrupcy)
+Bankrupcy indicating that the ticket is unpaid and included as debt in a consumer bankrupcy case
+Define if city can't find owner and collect debt.
