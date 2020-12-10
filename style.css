@@ -85,7 +85,7 @@ h2 {
 }
 
 #footnotes {
-  margin-top: 100px;
+  margin-top: 50px;
   font-size: 14px;
   position: relative;
   text-align: left;
@@ -96,13 +96,13 @@ h2 {
 }
 
 #issue {
-  margin-top: 50px;
-  margin-bottom: 10%;
+  margin-top: 100px;
+  margin-bottom: 15%;
   padding-top: 25px;
 }
 
 #contesting {
-  margin-top: 10%;
+  margin-top: 15%;
 }
 
 /* * * IMG * * */
