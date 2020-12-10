@@ -91,14 +91,18 @@ h2 {
   text-align: left;
 }
 
+#aboutUs {
+  margin-top: 50px;
+}
+
 #issue {
   margin-top: 50px;
   margin-bottom: 10%;
+  padding-top: 25px;
 }
 
-#aboutUs {
-  margin-top: 50px;
-  margin-bottom: 10%;
+#contesting {
+  margin-top: 10%;
 }
 
 /* * * IMG * * */

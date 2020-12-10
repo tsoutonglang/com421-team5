@@ -1,5 +1,7 @@
-figure 1. displays the type of notice sent to the motorist b y the city. The types of notice
-are : VIOL , a violation notice was sent; SEIZ indicates the vehicle is on the city's boot list
-: DETR means a hearing officer detertermined the vehical owner was liable for citation; FINL 
-indicates the unpaid ticket was sent to collections; DLS means the city intends to seek a license 
-suspension.
+figure 1. displays the type of notice sent to the motorist by the city since 1996. The types of notices are:
+VIOL , a violation notice was sent;
+SEIZ indicates the vehicle is on the city's boot list; 
+DETR means a hearing officer detertermined the vehical owner was liable for citation; 
+FINL indicates the unpaid ticket was sent to collections; 
+DLS means the city intends to seek a license suspension.
+Data for 2005 is unavailable.

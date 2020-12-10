@@ -1,2 +1,1 @@
-Figure 5. Shows the amount owed in upaid tickets by each year with the total debt
-owed to the city being $150295.79. No data for the year 2005.
+Figure 5. Shows the amount owed in upaid tickets by each year. The total debt owed to the city is $150295.79. Data for the year 2005 is unavailable.
