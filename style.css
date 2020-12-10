@@ -26,6 +26,8 @@ nav {
   background-color: #031927;
   width: 100%;
   top: 0;
+  position: absolute;
+  z-index: 1;
 }
 
 nav ul {
@@ -77,10 +79,6 @@ h2 {
 
 /* * * PAGE * * */
 
-#banner {
-  width: 100%;
-}
-
 #page {
   width: 95%;
   margin-left: auto;
@@ -91,6 +89,19 @@ h2 {
   margin-top: 16px;
   font-size: 14px;
   position: relative;
+  text-align: left;
+}
+
+/* * * IMG * * */
+#banner {
+  width: 100%;
+  position: relative;
+}
+
+#aboutImg {
+  width: 40%;
+  float: left;
+  margin-right: 45px;
 }
 
 a {
@@ -131,4 +142,8 @@ hr {
   border-top: 1px solid #ccc;
   margin: 1em 0;
   padding: 0;
+}
+
+ul {
+  text-align: left;
 }
