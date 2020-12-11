@@ -124,7 +124,9 @@ h2.spaces {
 }
 
 h3 {
-  font-size: 1.5em;
+  font-family: "Noto Sans JP";
+  font-weight: 700;
+  font-size: 1.6em;
   margin-bottom: 8px;
   margin-top: 25px;
 }
