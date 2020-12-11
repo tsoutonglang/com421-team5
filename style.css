@@ -20,6 +20,48 @@ body {
   text-align: center;
 }
 
+p {
+  margin-top: 8px;
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+a {
+  color: #7977b8;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #94a9e2;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+ul {
+  text-align: left;
+  margin: 0px;
+}
+
+ul.dashed {
+  list-style-type: none;
+}
+
+ul.dashed > li {
+  text-indent: -25px;
+}
+
+ul.dashed > li:before {
+  content: "- ";
+  text-indent: -5px;
+}
+
 /* * * NAVIGATION * * */
 
 nav {
@@ -73,7 +115,13 @@ h2 {
   color: #031927;
   font-size: 1.75em;
   margin-bottom: 8px;
-  margin-top: 25ps;
+  margin-top: 25px;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-bottom: 8px;
+  margin-top: 25px;
 }
 
 /* * * PAGE * * */
@@ -91,6 +139,8 @@ h2 {
   text-align: left;
 }
 
+/* * * INDEX * * */
+
 #aboutUs {
   margin-top: 50px;
 }
@@ -105,7 +155,7 @@ h2 {
   margin-top: 15%;
 }
 
-/* * * IMG * * */
+/* * * INDEX IMG * * */
 #banner {
   width: 100%;
 }
@@ -122,20 +172,7 @@ h2 {
   margin-left: 35px;
 }
 
-a {
-  color: #7977b8;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #94a9e2;
-}
-
-p {
-  margin-top: 8px;
-  margin-bottom: 16px;
-  font-size: 16px;
-}
+/* * * BUTTONS * * */
 
 .button {
   background-color: #faf7fd; /* Green */
@@ -153,15 +190,25 @@ p {
   color: #faf7fd;
 }
 
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
+/* * * FIGURE * * */
+.graphs {
+  display: flex;
+  justify-content: space-around;
 }
 
-ul {
-  text-align: left;
+.leftCol {
+  width: 50%;
+}
+
+.rightCol {
+  width: 50%;
+}
+
+figure img {
+  max-width: 100%;
+}
+
+figcaption {
+  font-size: 14px;
+  font-style: italic;
 }
